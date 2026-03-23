@@ -1,0 +1,632 @@
+[
+  {
+    "speaker": "SPEAKER_00",
+    "text": "代码这词儿现在都不对了，但我得向我的代理们表达我的意愿，持续16小时。说白了，我怎么就不能有哪怕一会的克隆代码或代码代理之类的东西呢？",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "怎么才能有更多这样的代理？怎么才能恰当地处理它们？现在代理这部分已经是理所当然的了，而不是像爪子一样的实体。现在你可以有多个这样的代理，你可以给它们下指令，你可以对这些指令进行优化，但我意思是，这就是为什么这会让人发疯，因为这就像无限的一样，一切都是技术问题。嗨，听众们，欢迎回到Nopriers。今天我在这里和Andre Kpofi一起，我们将和大家进行一次广泛深入的对话，主题是代码代理。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "未来工程与人工智能研究的发展，如何让更多人参与研究，机器人领域的最新动态，以及他对智能体如何拓展到现实世界的预测，还有在这个新时代的教育。Andre，Andre，谢谢你提出这些问题。",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "是的，谢谢你邀请我。过去几个月AI领域真是太令人兴奋了！",
+    "emotion": "高兴",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "我感觉自己一直处于一种AI妄想状态，这状态至今还常常伴随着我。因为在个人成就上，你能达到的上限突然变得非常大，之前你会被打字速度之类的瓶颈限制住。但现在有了这些智能体，我得说大概在去年12月的时候，我感觉有什么东西突然转变了，我从原来自己写80%代码、让智能体做20%，变成了自己只写20%代码，让智能体做80%。我甚至觉得现在已经不只是20%和80%的比例了，我可能从去年12月起就没怎么自己敲过代码了。",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "其实，我说的这个变化非常大。比如说，我之前跟我父母提到过，",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "但我不觉得一般人能意识到这个变化有多剧烈。比如，如果你随便找一个软件工程师，他们现在坐在办公桌前做的事情，和去年12月之前相比，完全不一样了。我现在就处于一种精神错乱的状态，一直在想还能做些什么，怎么突破限制。比如，我不仅想要一个Codex或这些代理工具的单一会话，还想有更多，而且要恰当地使用它们。这些工具到底是怎么运作的？我有很多新东西想去了解，但我感觉自己并没有走在前沿。我在Twitter上看到很多人都在做各种事情，他们的想法听起来都很好，但我却感觉自己落后了，这让我非常焦虑。所以，我现在就像是处于一种精神错乱的状态，一直在想还能做些什么，因为这些都是未被探索的领域。",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "那接下来，我们该怎么做呢？",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "如果你紧张，那我们其他人也都紧张。我们有一个团队，和他们一起工作时，他们总是说，每个人都像你知道的那样，不是工程师用手写代码，他们都有麦克风，他们只是一直对着他们的代理低声说话。这真是最奇怪的工作环境了，我当时觉得他们疯了，现在我完全接受了，就像是“哦，这就是他们的方式”，你只是走在了前面。你现在怎么看待自己探索或做项目的能力呢？",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "那你觉得是什么限制了你？",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "问题不在于能力不足，而是你还没找到把现有资源组合起来的方法。比如我给代理A或B的指示不够明确，或者我没有放进一个足够好的记忆工具，所以感觉就像是技术问题。你想看看怎么能让它们瘫痪，你想成为Peter Steer那样的人。Peter Steer很出名，他有一张有趣的照片，照片里他在显示器前，周围都是像Codex这样的代理，围着显示器，如果提示得当且使用高努力，它们每人需要20分钟。所以他来回切换，给它们更多的指令。这就像你能不能进行更大范围的宏操作，而不仅仅是给出一行代码或新函数，而是给出新功能并分配给代理A，再给出另一个不会干扰前一个功能的新功能。然后你要尽可能地审查它们的工作。根据你对代码的关注程度，你可以找到这些宏操作，通过它们来操作你的软件仓库。另一个代理在做研究，另一个在写代码，还有一个在制定新功能的实施计划。所以一切都发生在这些宏操作中，你只是想在这方面变得非常擅长，培养一种肌肉记忆，这非常有挑战性。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "非常有成就感，因为这真的管用，但这也是新东西要学，所以这就是为什么我会感到有点精神错乱。是的，我感觉我的直觉是，每当我在等待一个任务完成时，最明显的做法就是，嗯，",
+    "emotion": "高兴",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "如果我能访问更多代币，我可以做更多的工作。说白了，我应该能够同时处理多项任务，但这非常有压力。因为如果你不觉得自己在代币花费上受限，那你就是系统的最大能力没被充分利用。如果你在Codex上用完了代码，你应该切换到云端或其他方式。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "我不知道，这就是我一直在尝试做的。但当我还有订阅剩余时，我会感到紧张，因为这意味着我还没有最大化代币吞吐量。实际上，当我还是博士生的时候，我也有过这种经历。你会因为GPU没有运行而感到紧张，因为你有GPU能力，却没有充分利用可用的浮点运算。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "但现在问题不在于计算能力，而在于代币。你的代币吞吐量是多少？你能控制的代币吞吐量是多少？我实际上认为这很有趣，因为我们至少有10年的时间，在许多工程任务中，人们并没有感到计算受限。现在整个行业都感到资源受限。现在你有了这种巨大的能力提升，你会觉得，哦，实际上不再是我能否访问计算能力的问题了，而是我成了限制因素。这是一个非常有赋权感的问题，因为你可以通过变得更好来解决这个问题。所以这就是为什么我认为这非常令人上瘾，因为当你变得更好时，你会解锁更多可能性。你怎么看？如果你只是想想，比如说……",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "你知道，Andres每天都在练习，其他人也是每天16小时地提升，那一年后，比如说你已经精通了使用编码代理，会是什么样子呢？精通到底是什么样子的？是在年底的时候就达到了，还是说要到第二年？",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "其实，大家普遍对深入研究系统栈感兴趣。我认为，这不仅仅是与单个代理进行一次会话，而是多个代理如何协作，以及团队如何运作的问题。每个人都在探索这会是什么样子。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "说到Claw，它也是一个有趣的方向。我指的是那种能将持久性提升到新水平的层级，它会不断循环，有点像它有自己的小沙盒，即使你不在其中，它也会替你做事。它还有更复杂的记忆系统等。OpenC在这方面比默认的记忆压缩要先进得多。",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "我的HVAC系统、窗帘、泳池和SPA，还有安保系统，家里外头还装了个摄像头。只要有人靠近，我那款Aquin模型就会查看视频，首先进行变化检测，然后通知我。它会给我的WhatsApp发信息，说“嘿，FedEx卡车刚刚停在外面，你可能想去看看，是不是有新邮件什么的。”多亏了Dobe，它负责管理整个房子，我通过WhatsApp和它交流，这种感觉真是太棒了。",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "说白了，Dobe控制了我家的一切，我以前得用六七个完全不同的App，现在全都不需要了。它通过自然语言控制一切，这太不可思议了。我甚至还没完全发挥它的潜力，就已经觉得非常有帮助了。你觉得这是否预示着用户对软件体验的期望呢？因为很多人忽略了学习新软件或新界面需要付出的努力。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "我还认为，你将六种不同的软件系统统一起来，用于家庭自动化，这引出了一个问题：人们真的想要我们今天拥有的所有软件吗？因为我会说，你有硬件，但现在你已经抛弃了软件或它的用户界面层，你觉得这是人们想要的吗？",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "你觉得这是人们想要的吗？",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "one way that people sometimes push back on this is like do people do do we expect people to vibecode some of these tools, do we expect normal people to do this kind of stuff that I described,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "but I think to some extent,This is just you know technology as it exist today and right now there is some vibe coding and I'm actually watching it and I'm working with the system but I kind of feel like this kind of stuff that I just talked about this should be free like in a year or two or three there's no web coding involved this is trivial this table stakes this is like any AI even the open source models etca can like do this you should be able to translate from a less technical human intent very easily to easily today's vibe coding is involved that not many people are going to do it but and you still have to make some design decisions right we were talking.About like it will take frames,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "比如说，我有点觉得这会让障碍减少，就是说软件会帮你处理所有细节，你不用参与，ClA有台机器，它会搞定一切，只给你呈现个界面，你就像在说，你怎么还没突破ClA能做的事的极限呢？你是不是在专注于更重要的项目？",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "你说的这个研究啊，攀登希尔达大师级，还是别的什么，是吧？我就是觉得自己太分心了，上周都在弄抓取数据的事，还有好多没做完呢。不过，珍妮告诉我们，大家现在都挺忙的，不幸的是，我也没怎么利用邮件和日历这些工具。我没给它完全的权限，因为我还有些怀疑，而且它还很新，用起来不太顺手，所以我不想让它完全访问我的数字生活。这其中一部分原因也是出于安全和隐私的考虑，所以有些事就被我给耽搁了。",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "是啊，也许这确实是主要特点，但有些部分我感觉自己太分心了，因为我觉得上周忙得团团转，还有其他事情在发生。你之前提到过，想要看到代理执行的任务之一，就是能够训练或至少优化模型。那自动研究的动机是什么呢？",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "其实，我之前发过一条推文，说的是要充分利用现在可用的工具，你得把自己从瓶颈中移除。你不能总是在那儿提示下一步，你得把自己置身事外。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "你得把事情安排得完全自主，而且要最大化你的代币吞吐量，不被卷入其中。这就是目标。所以我提到，现在的关键是增加你的杠杆。我只是偶尔投入少量代币，就能发生大量的事情。这就是我发推说的，人们也喜欢。但可能他们还没完全理解这背后的含义。对我来说，自动研究就是这种含义的一个例子。我不想像研究者那样被困在循环里，看结果什么的，这样会阻碍系统。所以问题是，我怎么重新设计所有的抽象，这样我就不用一次性安排好，然后按下启动键。关键是，你怎么让更多的代理运行更长时间，在不需要你参与的情况下，代表你做事。自动研究就是这样，给你一个目标，一个指标，一个你能做和不能做的界限，然后你就可以开始了。是的，你对它的效果感到惊讶，对吧？",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "我没想到它会奏效，因为我有项目数据聊天，从根本上说，很多人对我对像GT2这样的模型的痴迷感到非常困惑。但对我来说，训练GT模型之类的，只是训练LLMs的一个微调小游乐场。从根本上说，我更感兴趣的是这个自我改进的想法，以及LLMs能多大程度上改进LLMs，因为我认为所有前沿实验室都在做这个，显然有他们的理由。所以对我来说，这有点像那个的小游乐场。我猜我已经通过手工调优tunemcha很多了，用我习惯的老方法，因为我是个研究者，已经做了二十多年了。我有种自豪感，觉得自己很自信，因为我已经训练这个模型几千次了，做了很多实验，超参数调优，所有这些我都做了二十多年了。我觉得已经调得相当好了，然后我让自动研究运行了一整晚，它回来了一些我没看到的调优结果。是的，我确实忘了给价值嵌入设置权重衰减，而且我的原子贝塔也没有充分调优，这些东西相互作用，所以一旦你调优了一件事，其他事可能也需要改变。我不应该成为瓶颈，不应该运行这些超参数或优化。",
+    "emotion": "惊讶",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "我不应该看结果，这个案例有客观标准，你只需安排让它一直运行下去，这就是一个单一的自动研究版本，一个单一的循环尝试改进。我很惊讶，它竟然在已经相当优化的代码库中找到了这些东西。说白了，它就像这些前沿实验室，他们有数万个GPU集群。所以，你可以很容易地想象，在较小的模型上实现大量这种自动化。从根本上说，围绕前沿智能的所有东西都是关于外推和扩展损失的，所以你基本上会在较小的模型上进行大量探索，然后尝试外推。你是说我们的研究努力会变得更有效率吗？如果我们能更好地进行实验，我们在扩展时也会有更好的方向。是的，",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "我会说，最有趣的项目，可能也是前沿实验室正在研究的，就是你在较小的模型上进行实验，尽可能地实现自动化，将研究人员从循环中移除。他们有太多的自信了，他们不应该碰这些东西。所以你必须重写整个系统，因为现在，他们当然可以提供想法，但好的，他们不应该真正执行这些想法。有一个想法队列，可能有一个自动化科学家根据所有档案论文和GitHub存储库提出想法，然后筛选这些想法，或者研究人员可以贡献想法，但这只是一个单一的队列。有一些工作人员会拉取这些任务并尝试执行，如果成功了，就会被放到功能分支上，也许有些人会监控功能分支并将其合并到主分支上。是的，就是尽可能地从所有流程中移除人类并实现自动化，并提高每秒处理的高肯令牌数。这确实需要重新思考所有的抽象概念，一切都必须重新组织。所以，是的，事情非常令人兴奋，我们在这里又迈出了递归的一步，模型什么时候能写出比你更好的程序MD？是的，所以程序M就是一个循环，程序M是我对自动研究员应该如何工作的一种蹩脚描述，哦，这样做，然后再做那样，然后再尝试这些想法，然后这里有一些可能的想法，比如看看架构，看看优化器等等，但我只是用Markdown写的，所以是的，你想要某种自动研究循环，它会寻找。你可以想象不同的程序ND会给你不同的进展，所以基本上每个研究组织都由程序MD描述，一个研究组织就是一组描述所有角色以及整个系统如何连接的Markdown文件。你可以想象有一个更好的研究组织，也许他们早上的站立会议更少，因为它们毫无用处，这都是代码，所以你可以想象一个组织有更少的站立会议，一个组织有更多的站立会议，一个组织可以非常冒险，一个组织可以风险较小。你可以想象你有多个研究组织，然后它们都有代码，一旦你有了代码，你就可以想象调整代码，所以100%有它自己的元层。你看到我关于我的竞赛想法的文本了吗？我的想法是让人们写不同的程序MD，所以对于相同的硬件，你在哪里能获得最大的改进呢？然后你可以把所有这些数据都给模型，然后让它写一个更好的程序MD，是的。",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "是的，没错，我们得搞出点更好的东西来。你知道吗，我们不能满足于现状。你看，改进都是有迹可循的，我在想，能不能调整一下程序，让更多这类事情发生？或者，那些不起作用的元优化，你完全可以想象得到。我觉得这是个好主意，但你知道吗，我觉得我们得一步一步来。先有一个流程，然后再来第二个，第三个，就像剥洋葱一样，一层一层。现在，LLM（大型语言模型）已经习以为常了，代理（agent）也是。现在，我们可以有多个这样的实体，可以给它们下指令，然后对这些指令进行优化。但这就好像有点太多了，你懂的。",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "但你知道吗，这就是为什么这会让人发疯。因为这就像一个无底洞，一切都是技能问题。这就是为什么我觉得，这又回到了我们为什么会觉得这么疯狂的原因。好吧，如果我们只是想诊断一下当前的情况，那么现在什么技能才是相关的呢？你觉得我们应该怎么做？在不同领域进行尝试，然后看看效果，你懂的。",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "删除。创建指标，或者让代理在没有你的情况下继续工作。\n 我们还有性能工程吗？是的，我的意思是，我会加上几个注意事项，首先，这个方法非常适合那些有明确衡量标准且易于评估的任务。比如说，",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "写内核来优化模型X各部分的代码，让代码更高效，行为完全一样但速度更快，这事儿挺适合自动研究的。但很多时候，自动研究并不适用，因为你要是评估不了，就没法自动研究，这是第一个要注意的地方。然后第二个要注意的地方是，我们在聊下一步，也看到了下一步是什么，但其实整个系统还是有点捉襟见肘，有漏洞，不完全好用。如果你太急于求成，整个系统可能就没那么有用了，因为这些模型还是有很多不足。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "它们还是有点粗糙，这是我对它们的评价。我同时觉得自己在跟一个极其聪明的博士生兼系统程序员聊天，也像在跟一个10岁的孩子聊天，这种感觉很奇怪。因为人类之间其实有很多联系，你不会遇到这种组合的粗糙感，这真的很奇怪。虽然人类也有点粗糙，但远没有这些代理那么多。有时候，",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "你知道，我问一个功能，它就给我返回完全不对的东西，然后我们就陷入了完全错误的循环。我还是经常对这些代理感到沮丧，因为你能感受到它的强大，但你也会发现，",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "他们还是这样，有时候根本不测试我的需求，我会非常生气，觉得代理浪费了很多计算资源在明显有问题上。我觉得主要问题可能是模型底层的训练方式，它们通过强化学习训练，其实也面临我们刚才讨论的同样问题，实验室可以改进模型，但只要是可验证的且有回报的任务，比如程序写对了吗，单元测试通过了吗，这些都是简单的“是”或“否”问题。",
+    "emotion": "生气",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "但有些地方它们确实很挣扎，比如理解我脑子里的想法或者意图，或者什么时候该问澄清问题。任何感觉模糊的事情对它们来说都更糟糕。所以你要么在超级智能的轨道上，要么就完全不在轨道上，不在可验证的领域里，突然间一切都变得混乱无序。换句话说，如果你去看最先进的模型，",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "ChaP and you ask it, tell me a joke.Do you know a joke you're going to get there's the joke the joke I do feel I can't tell you like the you know standard form of it, but I do feel like ChayP has like three jokes Yeah yeah, so the the joke that apparently all the Oms liked left the most is why do scientists not trust ats okay because they make everything up?Okay,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "they make everything up okay so this is still that emerge so this is the joke you would get like three or four years ago and this is the joke you still get today okay so even though the models have improved tremendously and if you give them an agent task they will just go for hours and move mountains for you and then you ask for like a joke and it has a stupid joke it's crappy joke from five years ago and it's because it's outside of the it's outside of the RL it's outside of the reinforcement learning it's outside of what's being improved it's like and it's part of the jagged.of like shouldn't you expect models as they get better to also have like better jokes or more diversity of them or it's just it's not being optimized and it's stuck Do you think that that implies that we are not seeing like generalization in the sense of like broader intelligence of joke smartness being attached to code smartness Yeah,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "I think there's some decoupling where some things are verifiable and some things are not and some things are optimized for arbitrarily by the labs depending on like what data went in and something,Things are not and.But I mean the premise, there's a you know premise from some research groups that if you're smarter at cogen or in these very verifiable fields,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "you should be better at everything like the joke situation suggests that that's not happening at all I don't think that's happening okay yeah I don't think that's happening I think I think maybe we're seeing like a little bit of that but not like a satisfying amount Yeah that jagon this exists in humans.You can be very very good at math still tell a really bad joke yeah that's true yeah but it just it still means that we're not getting like the story is that we're getting a lot of the intelligence and capabilities and all the domains of society like for free as we get better and better models and that's not like exactly fundamentally what's going on and there's some blind spots and some things are' not being optimized for and this is all clustered up in these neural opaque models right so you're either on rails of what it was trained for and everything is like you're going at speed of light or you're not and.So it's jaggedness.So that's why I think like even though the the progression is obvious,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "这事儿应该发生，但你不能完全放任不管，因为它现在还不行。要么是这事儿根本行不通，要么就是我们还没掌握这项技能，所以很难说。我能问个有点大逆不道的问题吗？",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "这有点像，如果这种粗糙性持续存在，并且全部都卷在一个至少是单一的界面里，但你知道单一模型会这样做吗？还是应该被拆分，以便针对不同的智能领域进行优化和改进，比如把模型拆分成多个不同领域的专家等等，这样会更直接，而不是像我们现在接触到的MoE，因为那可能会让用户觉得很困惑，比如为什么它在这件事上这么擅长，而在另一件事上却不行。\n\n 我目前的印象是，实验室们正试图拥有一个单一的模型，这个模型在所有这些不同的领域中都相当智能，他们只是把各种东西塞进参数里。但我确实认为我们应该期待更多的专业化。\n\n 在动物王国中，大脑极其多样化，存在许多不同的生态位。有些动物的视觉皮层或其他部分过度发达。我认为我们应该能看到更多的专业化。你不需要一个无所不知的\"神谕\"，你可以把它专业化，然后专注于特定任务。我们应该看到一些这样的情况，因为你应该能够拥有更小的模型，它们仍然有认知核心，仍然有能力，但然后它们会专业化。然后，也许在延迟或特定任务方面可以变得更加高效，比如如果你是一个在leanan工作的数学家。",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "我看到有些发布确实专注于特定领域的数据，所以可能有些例子会让人觉得解绑是有道理的。我的问题是，计算基础设施的容量限制是否会促使更多这种解绑行为，因为效率实际上更重要，对吧？或者如果你有完全的计算资源，就像只有一个单一模型一样，那就没问题。但如果你真的感到压力，比如说我不能为每个用例都提供一个大型模型，你觉得这会导致任何专业化吗？这个问题有道理吗？我猜我纠结的是，我们还没看到太多专业化，我们看到的是一个模型的单一文化。是的，所以显然有压力去制作一个好的代码模型。",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "把它再放回主合并中，是的。即使模型已经有压力了，我猜可能我感觉有很多短期的供应短缺，也许这会导致更多的专业化。我认为从根本上说，实验室在服务模型，他们不知道终端用户会问什么，所以这可能是其中的一部分，因为他们必须处理所有可能被问到的事情。但我认为，如果你和一个企业合作，解决一些你关心的具体问题，你可能会看到一些非常高价值的应用，这些应用更专业化，但我认为现在他们是在追求所有可用的东西。我不认为操纵大脑的科学已经完全发展了，你说的操纵是什么意思？比如微调但不失去能力，我们没有这些原始工具，可以在除了上下文窗口之外的方式上与智能体一起工作，上下文窗口只是起作用，操纵起来非常便宜等等，这就是我们得到一些定制化的原因。但我认为，如果它能更深入地调整模型，我认为这方面还有更多的发展空间。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "你是怎么持续学习的？或者怎么在某个领域精进？怎么在某个领域变得更好？或者说，你是怎么实际接触到那些知识的？",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "不仅仅是上下文窗口，要改动模型的权重其实更复杂。因为你实际上是在从根本上改变整个模型，甚至可能改变它的智能。所以，这可能只是对模型理解能力的一种不完全开发，而且它还必须足够经济实惠，以便在特定上下文中值得这么做。我能问个关于你在开放领域描述的自动研究扩展的问题吗？你说，好吧，我们有这个东西。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "其实，我们需要更多的合作平台，让人们能参与到研究中来。你能谈谈这个吗？",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "是的，我们之前聊过，我的研究就像一条主线，我会尝试在循环中做些事情，但本质上，这个并行化才是有趣的部分。我想我只是在尝试一些东西。",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "在自动研究中，你就是在找那么一段代码，它能把模型训练到很低的验证损失。如果有人给你一个候选提交，很容易验证这个提交是否正确。就像有人可能会在网上声称这段代码能优化得更好，给你更好的性能，你只需要简单检查一下就行，虽然可能需要做很多工作，但本质上他们可能会撒谎等等。",
+    "emotion": "高兴",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "所以你基本上是在处理类似的事情，它几乎就像我的设计，里面包含了一个不可信的工人池。实际上，它看起来有点像区块链，因为你有提交，这些提交可以相互构建，并且包含你在改进代码时所做的更改。工作证明基本上就是做大量的实验来找到有效的提交。这很难，而奖励就是现在出现在排行榜上，但目前没有任何金钱奖励。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "但我不想把这个类比推得太远。它本质上有一个问题，就是大量的搜索工作投入其中，但验证一个候选解决方案是否真的好非常便宜，因为你只需要训练一个模型。就像有人得尝试10,000个想法，但你只需要检查他们生成的东西是否真的有效，因为其中99,000个都没用。",
+    "emotion": "高兴",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "其实，简单来说，你需要设计一个系统，让一个不可信的工人池与一个可信的工人池协作，后者负责验证工作。整个过程有点像异步的，而且从安全角度来看是安全的，因为如果有人给你发送任意代码让你运行，那就非常可疑了。但从根本上说，这应该是完全可行的。你熟悉像Seti@home和Folding@home这样的项目吗？这些问题都有类似的设置。在Folding@home中，你在折叠蛋白质，找到一个低能耗的配置非常难，但如果有人找到了他们认为是低能耗的配置，那就太好了，你可以轻松验证。所以很多事情都有这个特性，就是创建起来很昂贵，但验证起来很便宜。因此，像Folding@home、Seti@home、Auto@research@home这样的项目都是很好的选择。说白了，互联网上的一群代理可以协作改进大型语言模型，甚至可能超越前沿实验室。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "就像谁知道呢，你懂的？是啊，就像也许这是可能的，前沿实验室有大量可信的计算能力，但地球要大得多，有海量的不可信计算能力，但如果你建立了系统来处理这些问题，",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "那么或许那里的群体能想出更好的解决方案，人们或许会愿意贡献自己的计算资源。抱歉，我最后的想法是，很多公司或其它组织或许可以有自己关心的事情，如果你有计算能力，",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "你知道吗，其实你可以参与不同类型的自动研究项目，比如你关心某种癌症，或者某种特定类型。你不一定要直接捐钱给机构，你还可以买计算资源，然后加入那个项目的自动研究团队。换句话说，如果你把计算资源贡献给自动研究，那你其实就是在为研究做贡献。",
+    "emotion": "高兴",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "这太鼓舞人心了，而且也很有趣。我不知道这种方式能走多远，但至少硅谷或者中国排队买东西的人已经发现，拥有个人计算资源很有趣。有些人真的很想这么做，因为他们想为自动研究做贡献。这就像现在大家都关心钱，但未来大家真正关心的可能是别的东西。你觉得呢？",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "for example, is really hard to get compute even if you have money yeah so actually it almost seems like the flop is like dominant in a certain sense yeah so so maybe that's kind of like kind of like that like how much how many flops do you control instead of like what wealth do you control I don't actually think that's true but it's kind of interesting to think about the last thing you released was like a little bit of jobs data analysis is that right?What and my toucher even though you're just like visualizing some public data what was you know,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "what were you curious about Yeah, I guess I was curious too.I mean everyone is likes everyone is really thinking about the impacts of AI on the job market and what's going to look like so I was just interested to take a look like what does the job market look like where are the different roles and how many people are in different professions and I was like really just interested to like look through the individual cases and try to think myself about like you know with these AIs and how they're likely to evolve like,Are these going to be tools that people are using are these going to be displacing tools for these professions and like what are the current professions and how are they going to change,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "are they going to grow or adjust to a large extent or like what could be new profession so it's really just like a way to fuel my own chain of thought about the industry I suppose and so yeah the jobs data basically is just a Bureau of Labor Sta they actually have percent outlook for each profession about how much it's expected to grow over the next I think almost a decade.Yeah,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "I think it's a decade but it was made in 2024 We need a lot of healthcare workers Yeah so they've already made those projections and I'm not sure actually 100% what the methodology was that they that they put into the projections I guess I was interested to color things by like if people think that what's like primarily being developed now is this kind of like more digital AI that is kind of like almost like these ghosts or spirit entities that can like interact in the digital world and manipulate a lot of like digital information and they currently don't really have a physical embodiment or presence.And the physical stuff is probably going to go slightly slower because you're manipulating atoms,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "so flipping bits and the ability to copy paste digital information is like makes everything a million times faster than accelerating matter,.So energetically I just think we're going to see a huge amount of activity in the digital space,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "我们现在正在进行大量的重写，各种活动就像在煮一锅沸腾的汤。我认为我们会看到一些在数字空间中以光速发展的东西，相比之下，我觉得物理世界中发生的事情可能要慢得多。这就像是一种推测，所以我认为目前存在一种滞后，就像有大量的数字信息处理工作，以前都是计算机和人来完成的，但现在有了AI，就像是第三种处理数字信息的方式。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "这些领域会有很多的重构工作，但物理世界实际上会比数字世界滞后一段时间。所以，我认为真正有趣的是，为什么我强调了那些本质上操作数字信息的职业。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "这些工作你可以在家里完成，因为我感觉这些工作会发生变化。但这并不意味着这些工作的量会减少或增加，因为这取决于需求弹性和其他许多因素。但这些职业会因为这些新工具和人类超级有机体神经系统的升级而发生变化，如果你从这个角度来看待数据的话。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "你有什么观察或者建议给那些正在找工作或者在考虑现在学什么或者学什么技能的人吗？我的意思是，我们都可以去学，我很感激我现在的工作需要我去见更多的人。你能从家里工作吗？我可以，我想有些工作内容是很难的，但大部分我都可以。我认为很难说，因为工作市场非常多样化，我想答案可能会因人而异。这些工具非常新，非常强大，所以只是跟上它们就像是第一步。是的，因为我想很多人可能会忽视它，或者害怕它。",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "等等，这完全可以理解。我认为目前它本质上是一个赋能工具，这些工作是任务的集合，有些任务可以快很多。所以人们应该把它主要看作是一个工具。我认为长期的影响是很难预测的。说实话，这很难预测，我想经济学家应该更专业地做这件事。你是一个工程师，对吧？",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "但是发生的事情是，银行分行的运营成本变得更便宜了，所以开了更多的分行，就有了更多的出纳员，这是人们常举的例子。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "但基本上，这只是盖尔悖论，就是说某样东西变得便宜了，所以对它的需求就大增。我确实认为，在软件工程领域，我持谨慎乐观的态度。在软件工程领域，我确实觉得，对软件的需求会非常大，而且它已经变得便宜多了。所以我认为，在相当长的一段时间里，很难预测，但至少在本地，我确实觉得对软件的需求会增加，因为软件太棒了，它就像数字信息处理，你不必使用那些各种各样不完美的工具，你也不必受限于现有的代码，因为代码现在是短暂的，它可以改变，可以被修改。所以我认为，在数字空间里，人们会重新调整很多东西，我认为这会创造很多对这类东西的需求。从长远来看，是的，很明显。即使有其他研究，比如开眼界的研究，",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "你知道，像这些其他实验室，比如他们雇用了大约一千名研究人员，这些研究人员基本上就像是被美化的，",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "他们就像是在自我自动化，而且这是他们所有人都在努力做的事情。我也和一些研究人员交流过，他们害怕得要命，觉得自动化真的在起作用，所以他们就想“完了，对我也是一样”，我花了很多时间和他们交流，我说：“你们意识到了吗？如果我们成功了，我们就失业了，就像我们只是在为萨姆或者董事会或者我不确定是谁，但就像是在为某个人构建自动化一样。”他们觉得自己是在为董事会或CEO之类的人做自动化，然后自己失业，可能在旁边做点贡献。是的，",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "从某个角度来看，这有点像是神经紧张，你介意我问你一个问题吗？你知道，你可以用大量计算资源和同事在前沿实验室进行自动研究，比如为什么不呢？我之前在那里待过一段时间，确实重新进入了这个领域，所以在一定程度上我同意。我认为这个问题有很多种解读方式，说实话，我觉得人们在实验室之外的贡献非常好，显然不仅仅是在行业内，还包括更广泛的生态系统层面的角色。比如你的角色就更像是生态系统层面的，我目前的角色也是，我对人们在这些角色中能产生的影响感到非常好。\n\n 反过来说，我脑子里确实有一些问题，就是基本上过于与前沿实验室保持一致的问题。从根本上说，你知道，你会有很大的经济动机与这些实验室合作，而且你自己也承认人工智能将极大地改变人类社会，而你却在这里开发这项技术，并通过经济手段与它结盟。这其实是一个核心难题，我们在一开始创立的时候就试图解决这个问题，所以你知道，这个难题现在还没有完全解决。\n\n 第一点是，你并不是一个完全自由的个体，你不能完全自主地参与到这个对话中。如果你在其中一个前沿实验室里，有些事情你是不能说的。反过来说，",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "有些话组织希望你说，他们不会强迫你，但你会感到压力，觉得自己应该说这些话。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "你知道，因为很明显，否则的话，就会有那种非常尴尬的对话，奇怪的眼神，就像“你在干嘛？”你知道吗？所以你不能真正成为一个独立的代理人。我觉得我在某种意义上更与人类的目标一致，因为我不受那些压力的影响，几乎是这样。我不能想说什么就说什么，是的。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "我在前沿实验室的时候，你当然也可以在那里产生影响。但是有很多研究人员，也许你就是其中之一，也许你的想法真的很好等等。可能有很多决策要做，你想处于一个可以参与这些对话的位置。我确实认为目前的利害关系相对较低，所以一切都还算不错。但归根结底，当利害关系真的很高的时候，如果你是一个组织的员工，我实际上不知道你对这个组织要做的事情有多大影响力。从根本上说，你并不是真的掌权，你在房间里贡献想法，但你并不真正掌控那个你所参与的实体。所以，这些就是我认为在一定程度上，我确实同意这种观点，即实验室在某种程度上我同意这种观点，实验室在某种程度上是不透明的，有很多工作要做，它们处于能力边缘，什么是可能的，它们正在研究即将到来的东西。我认为如果你不在那个前沿实验室里，你的判断从根本上就会开始偏离，因为你是其中的一部分。你知道即将到来的事情，所以我感觉我的判断不可避免地会开始偏离，我实际上不会理解这些系统是如何在幕后运作的，对于一个大系统，我不会很好地理解它将如何发展等等。所以，在某种意义上，我同意，我认为这很值得关注实际发生的事情，实际上在前沿实验室里。如果一些前沿实验室愿意让我花一些时间为他们做真正的好工作，然后也许来找工作，我认为那可能是一个好的安排，因为我感觉那样的话，我会更接近事情的本质。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "可能那是一种真正与现实相连的方式，同时又不会觉得自己完全受制于那些实体。所以我认为说实话，在我看来，Noam 在 OpenAI 可能能做非常出色的工作，但我也觉得他的最有影响力的工作很可能会是在 OpenAI 之外。不，那是在呼吁成为一个有尊严的独立研究员。是的，",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "外面有很多事情要做，而且我想最终，我想理想的解决方案可能就是这样。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "是的，来回折腾或者说白了就是这样。我认为从根本上说，你可以在这两个地方都产生非常大的影响，所以这个问题很复杂，我也不知道，这有点像一个很复杂的问题，但我的意思是我加入了前沿实验室，然后也许将来我想再次加入，我认为。😊 这有点像我看待它的方式。有一个相关的问题是关于世界或人工智能生态系统对前沿的可见性，那就是开源与前沿有多接近，以及它的可持续性如何。我认为，是的，我认为整个事件的顺序实际上很令人惊讶，比如说，一开始只有少数中国模型和全球模型，然后我认为人们会在短期内继续发布接近这些模型的，从能力的角度来看，我不知道你是否对这一点感到惊讶，你是一个长期的开源贡献者，你对这里有什么预测吗？",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "所以，粗略地说，基本上封闭模型是领先的，但就像人们在监测开源模型落后的月份数一样，从一开始什么都没有，然后到18个月的收敛，现在可能落后了大约8到6个月吧，我是一个非常支持开源的人，比如在操作系统方面，你有像Windows和Mac这样的大型软件项目，就像LMs将要成为的那样，还有Linux，但Linux非常容易，实际上Linux是一个非常成功的项目，它运行在绝大多数计算机上，比如上次我检查的时候，是60%还是什么的，运行的是Linux，这是因为行业需要一个大家都觉得安全使用的公共开源平台。我认为行业一直都有这样的需求，我认为现在也是如此，这就是为什么商业上确实有这样的需求。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "但有一个很大的区别，那就是一切都是资本，有大量的资本支出投入其中，所以我认为这就是为什么有些事情会变得有点困难，从某种意义上说，我确实认为当前的模型非常好。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "I think there's some systemic risk attached to just having intelligence that are closed and that's like that's it and I think that that's centralization has a very poor track I created in my view in the past and has you mean like in political or economic systems in general, exactly I think there's like a lot of like in Eastern European lot of pretty bad precedent so I want there to be a thing that is maybe not at the edge of capability because it's new and unexplored,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "etca.I wonder there to be a thing that's behind and that is kind of like a common working space for intelligences that the entire industry has access to yeah that seems to me like a pretty decent power balance for the industry Yeah I also think there's just like there are many problems to solve right like if you keep advancing intelligence from the frontier we can do new things and there are a lot of like very big problems for humanity right and so like it seems that that will continue to be a very expensive game and so I want to like root for labs that are doing that because there are problems we cannot solve without continuing to advance the models.Expensive way and yet,",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "你说得对，就像我们现在所拥有的，今天的前沿已经打开了，这带来了很多能力，所以我认为这种力量或者这种能力的民主化似乎非常有用和健康。是的，我认为基本上是偶然的，实际上我们恰好处于一个有利的位置。而且，从某种程度上说，这种动态持续的时间越长，生态系统可能就越健康，因为你会有越来越多的区域处于曲线之下。我要说的是，即使在较近的一侧，也是如此。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "其实，我觉得最近它变得更集中了，因为我觉得很多领跑者并不是顶级的，所以从这个角度来说，我觉得这不太理想。我希望有更多的人参与进来，说白了，我对这种封闭的小圈子有点怀疑。我希望有更多的人在一起思考所有最难的问题，我希望有更多的人在房间里，他们都了解情况，然后做出所有这些决定。我不希望只有两个或三个人在做决定，我觉得那不是一个好的未来。简而言之，我希望有更多的实验室，我确实认为它们有自己的位置，我希望它们能一直存在下去。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "好吧，你之前一直在研究通用机器人自主性在汽车中的应用，对吧？在过去的几个月里，机器人公司也发生了很大的变化，比如环境和任务的通用化加速，长时间任务的增加，大量的资金投入到这个领域。那么，你觉得它会发生吗？最近有什么变化吗？",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "在我看来，这受到我在自动驾驶领域看到的情况的影响。我感觉，机器人技术可能是第一个应用，当时大概10年前，有很多初创公司，但我感觉大多数都没能长期生存下来。我看到的是，大量的资本投入和大量的时间。我认为机器人技术非常困难，非常混乱，需要大量的资本投入和信念，所以它是一个大问题。我认为这非常困难。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "在数字空间中，将会发生大量的事情，基本上就是那些不太高效的东西会变得更高效，可能是100倍，因为比特更容易处理。所以，我认为在未来，数字空间会发生巨大的变化，而物理空间会落后。我发现非常有趣的是，它们之间的接口，因为我认为如果我们有更多的代理人代表人类行动，更多的代理人互相交谈、执行任务、参与代理经济等，你会发现你在数字空间中能做的事情会越来越少。",
+    "emotion": "高兴",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "所以，我看到的一些例子是，比如我朋友利亚姆，他是周期性公司的CEO。上周我去拜访了他，所以这事儿一直萦绕在我心头。他们正在尝试进行材料的自动研究，就像传感器和智能一样，这些其实都是相当昂贵的实验室设备。在生物学领域也是如此，很多人对工程生物学很感兴趣，而且传感器可不只是像摄像头那么简单，你懂我意思吧？",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "所以，这些传感器以各种不同的形式存在，你明白吧。我很期待有一天，我可以在现实世界中发布任务，并为之定价，然后告诉代理，你知道的，你去搞定它，去获取数据。我其实挺惊讶的，我们还没有足够的信息市场。比如说，像Po市场或者其他赌博市场，甚至是股票市场等等，它们都有大量的自主活动和越来越多的活动，那为什么像伊朗现在发生的事情，为什么没有一个机制，比如说，从德黑兰某个地方拍的视频，应该要花10美元，有人应该能够为此付费，你懂我意思吧。这就是在为智能提供信息，不会有人去看这些，而是那些试图猜测赌博游戏、股票市场等等的代理在做这些事。所以，我感觉代理网络还相当新，还没有这样的机制，但这是我认为可能会发生的事情。有一本好书，可能对你有所启发，叫做《达蒙》，你可能在《达蒙》中读到过，智能最终会像黑客帝国一样，有点像人类，某种程度上。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "你知道，其实人类就像是机器的执行器，也是传感器。所以我认为，社会会以某种方式集体重塑，来满足这些需求。整个行业最终都会这样，会有很多自动化，有特定的需求，而人类就会服务于这些机器的需求。",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "其实，我们并不一定彼此喜欢。问题在于我们缺少一些训练数据，而这正是我们需要的。说白了，就像是需要一个自动化研究的过程，比如让训练周期或SFT部分更加自动化，这样才能让Woodborn摆脱人工干预，去完成一项任务，比如用新数据提升模型质量。你明白我的意思吗？如果模型不能自己进行训练运行，那该怎么办？",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "你完成这项任务的能力就像一个封闭的循环，对吧？而价格数据的获取会更具挑战性，是的，是的。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "其实，现在用LLM进行训练，真的非常容易，它非常符合这种范式。你会发现，LM训练其实非常契合这种范式，而且很容易实现。所有的代码优化都能让它运行得更快，同时你还有各种指标可以优化。我认为，如果你能对这些指标进行自主循环优化，系统可能会过度拟合这些指标，但你可以通过系统来开发更多的指标，从而实现很好的覆盖。虽然这很难说，但在某种意义上，这其实是一个相当好的契合。\n\n 在结束之前，我想聊聊你的一个很小的副项目，就是microGPTR，哦，是GPT。我有种运行了大约十年或更长时间的执念，就是简化和提炼LLM的本质。我进行过很多类似的项目，比如nanoGPT、makemore和micrograd等等。我觉得microGPT现在代表了我试图将LLM简化到本质状态的最新尝试，因为训练神经网络和LLM，尤其是LLM，需要大量的代码，但所有这些代码其实都是为了效率而产生的复杂性。如果你不需要它运行得快，只需要关注算法本身，那么这个算法实际上只需要200行Python代码，非常容易阅读，这还包括了注释和所有内容。你只需要你的文本数据集，需要你的神经网络架构，这只需要50行代码，然后你需要进行前向传递，接着进行反向传播来计算梯度，所以你需要一个自动微分引擎来计算梯度，这需要100行代码，然后你需要一个优化器，比如Adam。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "其实，R 优化器的状态就像是又来了一次。Ls 真的，所以把所有东西都整合到训练循环里，其实就是，嗯，200 行代码，这让我很感兴趣。正常情况下，可能一年以前，或者更久，如果我当初想出 microGPT，",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "我可能会忍不住像做视频一样，一步步解释给大家看，或者做点类似的事情。实际上我试着做了个视频，还尝试做了个小指南之类的。然后我渐渐意识到，这其实没多大用，因为这已经很简单了，200 行代码，任何人都可以让 Agent 用各种方式解释它。现在我不是在给人们解释，而是在给 Agent 解释。如果你能给 Agent 解释清楚，",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "那么，代理人可以作为路由器，他们实际上可以用他们语言中的无限耐心和能力来针对人类进行目标定位，对吧？如果我不理解这个特定功能，我可以请代理人向我解释，用三种不同的方式。我不会从你那里得到这个。所以，我有点觉得，你知道，教育曾经是什么样的？它曾经是讲座，是这样一种东西。现在，我感觉我更多地是在向代理人解释事情，也许我正在想出一些技能，基本上，技能只是一种指导代理人如何教东西的方式。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "所以，也许我可以为microGPT创建一个技能，描述我想象中的代理人应该采取的进展过程，如果你对理解代码库感兴趣的话。这就像给模型的一些提示，比如，首先从这个开始，然后再到那个。所以，我可以稍微脚本化一下课程，作为一种技能。所以，我感觉，嗯，我感觉像直接向人们解释事情的情况会越来越少，更多的是看代理人是否理解，如果代理人理解了的话。",
+    "emotion": "高兴",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "他们会解释，但我还没完全理解，因为我感觉我能比这些代理解释得更好，但我还是觉得模型进步得太快了，感觉这有点像是场必输的仗。所以我认为教育会被重新洗牌，有点像如果我有一个代码库，",
+    "emotion": "困惑",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "比如，你以前会为使用你库的人写文档，但现在你不应该这么做了，你应该写给代理的markdown文档，因为如果代理理解了，它们就能解释这个库的所有不同部分，所以这就是通过代理的重新引导，",
+    "emotion": "严肃",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "我认为这就是为什么我看到越来越多的这种情况发生，我们会看看伟大的老师们是否能发展出如何向代理解释事物的直觉。比如，microGPT，我试着让一个代理写microGPT，我告诉它试着把神经网络简化成最简单的东西，但它做不到。microGPT就像是我的执念，这是我思考了很长时间的问题，我几乎思考了很长时间，这就是我的解决方案，相信我，这不能再简单了，这是我的附加价值。其他像代理理解的东西，它只是想不出来，但它完全理解，明白为什么要以某种方式做等等。所以，我的贡献就是这些小部分，而之后教育的方方面面就不再是我的领域了。也许，是的，教育就是这样改变的，你得把你觉得很重要的那几点融入到课程中，或者用更好的方式解释，或者类似的事情，那些是你现在要做的工作，那些是代理可以做的事情，",
+    "emotion": "兴奋",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "它们可能比你做得更好，或者很快就能做到，所以你应该在你实际花时间的事情上战略性地思考。谢谢你，安德烈。在Twitter上关注我们@noprispod，如果你想看到我们的脸，订阅我们的YouTube频道，在苹果播客上关注这个节目。",
+    "emotion": "中性",
+    "style": null
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "text": "Spotify or wherever you listen, that way you get a new episode every week and sign up for emails or find transcripts for every episode at no-priers.com.",
+    "emotion": "中性",
+    "style": null
+  }
+]
